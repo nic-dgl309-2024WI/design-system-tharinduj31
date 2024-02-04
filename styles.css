@@ -6,7 +6,7 @@
     --clr-white: #fff; /* White */
   }
   
-  * {
+  /* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -19,4 +19,4 @@
   ul, ol {
     padding: 0;
   }
-  
+   */

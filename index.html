@@ -6,21 +6,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="design-system.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
+    <a class="toggle" onclick="showNav()"
+    ><i class="fa fa-bars"></i
+  ></a>   
     <nav>
         <div>
             <span>Design System</span>
         </div>
-        <ul>
+        <ul id="nav-items">
             <li>About me</li>
             <li>Demo Site</li>
         </ul>
     </nav>
 </header>    
 
-<aside>
+<aside id="aside-items">
         <h2>Branding</h2>
         <ol>
             <li>Colours</li>
@@ -61,6 +65,6 @@
     
 </aside>
 
-
+<script src="design-system.js"></script>
 </body>
 </html>
