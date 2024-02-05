@@ -8,6 +8,10 @@ nav {
   display: none;
 }
 
+ol{
+    list-style-type: none;
+}
+
 aside {
   display: none;
 }
