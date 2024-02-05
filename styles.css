@@ -1,5 +1,5 @@
 :root {
-  --clr-primary: #0C0C55; /* Black */
+  --clr-primary: #0C0C55; 
   --clr-secondary: #333; /* Dark Grey */
   --clr-accent: #333; /* Dark Grey */
   --clr-light: #f2f2f2; /* Very Light Grey */
@@ -42,6 +42,11 @@ background-color: var(--clr-primary);
 }
 
 
-.colors__text{
+.colors__textColor{
 color: var(--clr-text);
 } 
+
+.colors__text{
+  background-color: var(--clr-text);
+  }
+  
