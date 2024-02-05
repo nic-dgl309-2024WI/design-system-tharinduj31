@@ -9,8 +9,11 @@ nav {
 }
 
 aside {
-  /* list-style-type: none; */
   display: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 .show-items {
