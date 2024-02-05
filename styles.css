@@ -1,12 +1,13 @@
 :root {
-  --clr-primary: #0C0C55; 
+  --clr-primary: #0c0c55;
   --clr-secondary: #333; /* Dark Grey */
-  --clr-accent: #D93044; /* Dark Grey */
+  --clr-accent: #d93044; /* Dark Grey */
   --clr-light: #f2f2f2; /* Very Light Grey */
   --clr-white: #fff; /* White */
   --clr-green: #277838; /* green */
   --clr-blue: #854bdb; /* blue */
-  --clr-text: #72D4DF; /* blue */
+  --clr-text: #72d4df; 
+  --clr-decorative: #DCE651; 
 }
 
 * {
@@ -38,28 +39,31 @@ ol {
   width: 25%;
 }
 
-.colors__primary{
-background-color: var(--clr-primary);
+.colors__primary {
+  background-color: var(--clr-primary);
 }
 
+.colors__textColor {
+  color: rgb(148, 179, 148);
+}
 
-.colors__textColor{
-color: var(--clr-text);
-} 
-
-.colors__text{
+.colors__text {
   background-color: var(--clr-text);
-  }
+}
 
-.colors__white{
+.colors__white {
   background-color: var(--clr-white);
-  } 
-  
-  .colors__accent{
-    background-color: var(--clr-accent);
-    } 
+}
 
-table{
+.colors__accent {
+  background-color: var(--clr-accent);
+}
+
+.colors__decorative {
+  background-color: var(--clr-decorative);
+}
+
+table {
   border: 2px solid #ccc;
 }
 

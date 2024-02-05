@@ -37,7 +37,7 @@ aside a:hover {
   color: var(--clr-green); /* hover on links */
 }
 
-nav a.active {
+.active {
   font-weight: bold;
   color: #39ba2d; /* Change color to indicate active state */
 }
