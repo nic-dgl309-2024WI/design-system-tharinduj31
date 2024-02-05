@@ -1,24 +1,47 @@
 :root {
-    --clr-primary: #000; /* Black */
-    --clr-secondary: #333; /* Dark Grey */
-    --clr-accent: #333; /* Dark Grey */
-    --clr-light: #f2f2f2; /* Very Light Grey */
-    --clr-white: #fff; /* White */
-    --clr-green: #277838; /* green */
-    --clr-blue: #854bdb; /* blue */
-  }
-  
-  * {
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    margin: 0;
-    padding: 0;
-  }
+  --clr-primary: #0C0C55; /* Black */
+  --clr-secondary: #333; /* Dark Grey */
+  --clr-accent: #333; /* Dark Grey */
+  --clr-light: #f2f2f2; /* Very Light Grey */
+  --clr-white: #fff; /* White */
+  --clr-green: #277838; /* green */
+  --clr-blue: #854bdb; /* blue */
+  --clr-text: #72D4DF; /* blue */
+}
 
-  body, h1, h2, h3, h4, h5, h6, p, figure, picture {
-    margin: 0;                          /* Reset margin to 0 */
-  }
-  
-  ul, ol {
-    padding: 0;                     /* Reset padding to 0 */
-  }
-  
+* {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0; /* Reset margin to 0 */
+}
+
+ul,
+ol {
+  padding: 0; /* Reset padding to 0 */
+}
+
+.c-colorSwatch {
+  height: 60px;
+}
+
+.colors__primary{
+background-color: var(--clr-primary);
+}
+
+
+.colors__text{
+color: var(--clr-text);
+} 
