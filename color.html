@@ -82,14 +82,16 @@
           <span class="colors__textColor">#0C0C55</span>
         </div>
         <h3>--clr-primary</h3>
+        <span>Primary background color</span>
       </div>
-
+  
       <div>
         <span>Text Colors</span>
         <div class="c-colorSwatch colors__text">
           <span class="colors__textColor">#72D4DF</span>
         </div>
         <h3>--clr-text</h3>
+        <span>Primary text color</span>
       </div>
 
       <div>
@@ -98,7 +100,57 @@
           <span class="colors__textColor">#72D4DF</span>
         </div>
         <h3>--clr-white</h3>
+        <span>White background</span>
       </div>
+      <div>
+        <span>Accent colour </span>
+        <div class="c-colorSwatch colors__accent">
+          <span class="colors__textColor">#72D4DF</span>
+        </div>
+        <h3>--clr-accent</h3>
+        <span>CTA background, Errors</span>
+      </div>
+
     </section>
+
+<table>
+  <thead>
+    <td>Color 1</td>
+    <td>Color 2</td>
+    <td>Contrast Ratio</td>
+    <td>Pass/Fail</td>
+  </thead>
+  <tbody>
+    <td>Primary background color</td>
+    <td>Primary text color</td>
+    <td>10.17:1</td>
+    <td>Pass</td>
+  </tbody>
+  <tbody>
+    <td>Primary background color</td>
+    <td>Accent color</td>
+    <td>3.71:1</td>
+    <td>Pass</td>
+  </tbody>
+  <tbody>
+    <td>White background color</td>
+    <td>Accent color</td>
+    <td>4.71:1</td>
+    <td>Pass</td>
+  </tbody>
+  <tbody>
+    <td>White background color</td>
+    <td>Primary text color</td>
+    <td>1.72:1</td>
+    <td>Fail</td>
+  </tbody>
+  <tbody>
+    <td>Accent color</td>
+    <td>Primary text color</td>
+    <td>2.73:1</td>
+    <td>Fail</td>
+  </tbody>
+</table>
+
   </body>
 </html>
