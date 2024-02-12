@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif; */
   --clr-light: #f2f2f2; /* Very Light Grey */
   --clr-white: #fff; /* White */
   --clr-green: #277838; /* green */
-  --clr-blue: #854bdb; /* blue */
+  --clr-purple: #854bdb; /* blue */
   --clr-text: #72d4df;
   --clr-decorative: #dce651;
 
@@ -51,9 +51,9 @@ li{
   font-size: var(--fs-700);
 }
 
-a{
+header{
   font-family: var(--ff-roboto);
-  font-size: var(--fs-700);
+  font-size: var(--fs-800);
 }
 
 body,
@@ -97,6 +97,10 @@ ol {
 
 .colors__white {
   background-color: var(--clr-white);
+}
+
+.colors__purple {
+  background-color: var(--clr-purple);
 }
 
 .colors__accent {
