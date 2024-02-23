@@ -15,7 +15,7 @@ font-family: 'Roboto', sans-serif; */
   --clr-decorative: #dce651;
 
   /* font-families */
-  --ff-sans-serif: "Roboto", sans-serif;
+  --ff-sans-serif: "Montserrat", sans-serif;
   
  /* font sizes */
   --fs-button: 0.875rem;
@@ -28,6 +28,7 @@ font-family: 'Roboto', sans-serif; */
   --fs-h3: 3rem;
   --fs-h2: 3.5rem;
   --fs-h1: 4rem;
+ 
 
   /* font-weights */
   --fw-300-light: 300;
@@ -67,12 +68,6 @@ ol {
 
 /* Colors */
 
-.c-colorSwatch {
-  height: 60px;
-  width: 25%;
-  font-family: var(--ff-sans);
-  font-size: var(--fs-700);
-}
 
 .u-primary-bgcolor {
   background-color: var(--clr-primary-bgcolor);

@@ -16,15 +16,7 @@ aside {
   display: none; /* Hide aside by default */
 }
 
-a {
-  text-decoration: none;
-  color: var(--clr-primary); /* variable color to anchor tags */
-}
 
-h2 {
-  color: var(--clr-purple); /* variable color to h2 element */
-  padding-top: 10px;
-}
 
 .show-items {
   /* when hambergur menu clicked, applied this style */
@@ -42,30 +34,31 @@ aside a:hover {
   color: #39ba2d; /* Change color to indicate active state */
 }
 
-/* table */
-
-.colors_table td{
-  font-family: var(-ff-roboto);
-  font-size: var(--fs-600);
+.c-swatch__table--size {
+  margin-top: 10px;
+  width: 300px;
+  border-radius: 5px 5px 0 0;
+  padding: 4px;
 }
 
-/* typography */
-
-/* .typography h1, h2{
-  font-family: var(--ff-roboto);
-} */
-
-.typography h1{
-  font-size: var(--fs-700);
-  text-transform: uppercase;
+.c-swatch__table--border {
+  border: 1px solid lightgray;
 }
 
-.typography h2{
-  font-size: var(--fs-600);
+.c-sidebar__link{
+  text-decoration: none;
+  color: var(--clr-primary-font-color);
 }
 
-.typography p{
-  font-size: var(--fs-500);
+.c-sidebar__list__items{
+  font-size: var(--fs-h4);
+  list-style-type: none;
+  margin: 10px 0;
+  color: var(--clr-secondary-font-color);
+}
+
+.c-sidebar__list-items--hover:hover{
+  color: var(--clr-primary-accent-bgcolor);
 }
 
 
