@@ -3,14 +3,15 @@ font-family: 'Roboto', sans-serif; */
 
 :root {
   /* colors */
-  --clr-primary: #0c0c55;
-  --clr-secondary: #333; /* Dark Grey */
-  --clr-accent: #d93044; /* Dark Grey */
-  --clr-light: #f2f2f2; /* Very Light Grey */
-  --clr-white: #fff; /* White */
-  --clr-green: #277838; /* green */
-  --clr-purple: #854bdb; /* blue */
-  --clr-text: #72d4df;
+  --clr-primary-font-color:: #0c0c55;
+  --clr-primary-bgcolor:: #f2f2f2; /* Very Light Grey */
+  --clr-primary-accent-bgcolor: #277838; /* green */
+  --clr-primary-accent-font:: #72d4df;
+
+  --clr-secondary-font-color: #333; /* Dark Grey */
+  --clr-secondary-bgcolor: #d93044; /* Dark Grey */
+ 
+  --clr-light-bgcolor: #fff; /* White */  
   --clr-decorative: #dce651;
 
   /* font-families */
