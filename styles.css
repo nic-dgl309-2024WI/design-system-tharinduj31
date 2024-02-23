@@ -46,26 +46,6 @@ font-family: 'Roboto', sans-serif; */
   /* font-size: 62.5%; */
 }
 
-body {
-  font-family: var(--ff-roboto);
-  font-size: var(--fs-600); /* 1.6rem is equivalent to 16 pixels */
-}
-
-h2{
-  font-family: var(--ff-roboto);
-  font-size: var(--fs-800);
-}
-
-li{
-  font-family: var(--ff-roboto);
-  font-size: var(--fs-700);
-}
-
-header{
-  font-family: var(--ff-roboto);
-  font-size: var(--fs-800);
-}
-
 body,
 h1,
 h2,
@@ -84,6 +64,30 @@ ol {
   padding: 0; /* Reset padding to 0 */
 }
 
+/*   Utility Classes */
+
+/* body {
+  font-family: var(--ff-roboto);
+  font-size: var(--fs-600); 
+}
+
+h2{
+  font-family: var(--ff-roboto);
+  font-size: var(--fs-800);
+}
+
+li{
+  font-family: var(--ff-roboto);
+  font-size: var(--fs-700);
+}
+
+header{
+  font-family: var(--ff-roboto);
+  font-size: var(--fs-800);
+} */
+
+
+
 /* Colors */
 
 .c-colorSwatch {
@@ -93,31 +97,31 @@ ol {
   font-size: var(--fs-700);
 }
 
-.colors__primary {
-  background-color: var(--clr-primary);
+.u-primary-bgcolor {
+  background-color: var(--clr-primary-bgcolor);
 }
 
-.colors__textColor {
-  color: rgb(148, 179, 148);
+.u-primary-font-color{
+  color: var(--clr-primary-font-color);
 }
 
-.colors__text {
-  background-color: var(--clr-text);
+.u-primary-cta-bgcolor {
+  background-color: var(--clr-primary-accent-bgcolor);
 }
 
-.colors__white {
-  background-color: var(--clr-white);
+.u-primary-cta-font-color {
+  color: var(--clr-primary-accent-font);
 }
 
-.colors__purple {
-  background-color: var(--clr-purple);
+.u-secondary-font-color {
+  color: var(--clr-secondary-font-color);
 }
 
-.colors__accent {
-  background-color: var(--clr-accent);
+.u-secondary-bgcolor {
+  background-color: var(--clr-secondary-bgcolor);
 }
 
-.colors__decorative {
+.u-colors-decorative {
   background-color: var(--clr-decorative);
 }
 
