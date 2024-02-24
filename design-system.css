@@ -8,13 +8,9 @@ nav {
   display: none; /* Hide navigation by default */
 }
 
-
-
 aside {
   display: none; /* Hide aside by default */
 }
-
-
 
 .show-items {
   /* when hambergur menu clicked, applied this style */
@@ -32,33 +28,46 @@ aside a:hover {
   color: #39ba2d; /* Change color to indicate active state */
 }
 
+
+td, th {
+  border: 2px solid #ccc;
+  padding: 8px;
+}
+
 .c-swatch__table--size {
-  margin-top: 10px;
+
   width: 300px;
-  border-radius: 5px 5px 0 0;
   padding: 4px;
+  font-family: var(--ff-sans-serif);
+  font-size: var(--fs-body);
+  border-collapse: collapse;
+  
+  
 }
 
-.c-swatch__table--border {
-  border: 1px solid lightgray;
-}
 
-.c-sidebar__link{
+.c-sidebar__link {
   text-decoration: none;
   color: var(--clr-primary-font-color);
 }
 
-.c-sidebar__list__items{
+.c-sidebar__list__items {
   font-size: var(--fs-h4);
   list-style-type: none;
   margin: 10px 0;
   color: var(--clr-primary-font-color);
 }
 
-.c-sidebar__list-items--hover:hover{
+.c-sidebar__list-items--hover:hover {
   color: var(--clr-primary-accent-bgcolor);
 }
 
+.c-swatch {
+  width: fit-content;
+  padding: 5px;
+  font-family: var(--ff-sans-serif);
+  font-size: var(--fs-body);
+}
 
 /* small devices (mobile devices, upto 1000px).......................................*/
 @media (max-width: 1000px) {
@@ -92,17 +101,15 @@ aside a:hover {
     display: flex;
   }
 
-  .typography h1{
+  .typography h1 {
     font-size: var(--fs-800);
   }
-  
-  .typography h2{
+
+  .typography h2 {
     font-size: var(--fs-700);
   }
-  
-  .typography p{
+
+  .typography p {
     font-size: var(--fs-600);
   }
-  
-
 }

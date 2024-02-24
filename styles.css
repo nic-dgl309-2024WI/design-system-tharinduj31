@@ -3,12 +3,12 @@ font-family: 'Roboto', sans-serif; */
 
 :root {
   /* colors */
+  --clr-primary-bgcolor: #f3f5f7; 
   --clr-primary-font-color: #461268;
-  --clr-primary-bgcolor: #FFFFFF; /* white */
   --clr-primary-accent-bgcolor: #1D8735; /* green */
   --clr-primary-accent-font:: #FFFFFF;  /* white */
 
-  --clr-secondary-font-color: #333; /* Dark Grey */
+  --clr-secondary-font-color: #d9b4b4; /* Dark Grey */
   --clr-secondary-bgcolor: #d93044; /* Dark Grey */
  
   --clr-light-bgcolor: #fff; /* White */  
@@ -75,6 +75,10 @@ ol {
 
 .u-primary-font-color{
   color: var(--clr-primary-font-color);
+}
+
+.u-primary-font-color-bg{
+  background-color: var(--clr-primary-font-color);
 }
 
 .u-primary-cta-bgcolor {
@@ -179,12 +183,4 @@ ol {
 .u-uppercase { text-transform: uppercase; }
 
 
-table {
-  border: 2px solid #ccc;
-}
 
-td {
-  padding: 8px; /* Add padding to the table cells */
-  border-bottom: 1px solid #ddd; /* Add a bottom border with a light grey color */
-  border-right: 1px solid #ddd; /* Add a right border with a light grey color */
-}
