@@ -8,9 +8,7 @@ nav {
   display: none; /* Hide navigation by default */
 }
 
-ol {
-  list-style-type: none;
-}
+
 
 aside {
   display: none; /* Hide aside by default */
