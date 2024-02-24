@@ -52,7 +52,7 @@ aside a:hover {
   font-size: var(--fs-h4);
   list-style-type: none;
   margin: 10px 0;
-  color: var(--clr-secondary-font-color);
+  color: var(--clr-primary-font-color);
 }
 
 .c-sidebar__list-items--hover:hover{

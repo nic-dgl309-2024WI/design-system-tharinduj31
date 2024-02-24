@@ -3,10 +3,10 @@ font-family: 'Roboto', sans-serif; */
 
 :root {
   /* colors */
-  --clr-primary-font-color:: #0c0c55;
-  --clr-primary-bgcolor:: #f2f2f2; /* Very Light Grey */
-  --clr-primary-accent-bgcolor: #277838; /* green */
-  --clr-primary-accent-font:: #72d4df;
+  --clr-primary-font-color: #461268;
+  --clr-primary-bgcolor: #FFFFFF; /* white */
+  --clr-primary-accent-bgcolor: #1D8735; /* green */
+  --clr-primary-accent-font:: #FFFFFF;  /* white */
 
   --clr-secondary-font-color: #333; /* Dark Grey */
   --clr-secondary-bgcolor: #d93044; /* Dark Grey */
@@ -173,6 +173,7 @@ ol {
   font-size: var(--fs-body);
   font-weight: var(--fw-400-reg);
   letter-spacing: 0.48px;
+  color: var(--clr-primary-font-color);
   }
 
 .u-uppercase { text-transform: uppercase; }
