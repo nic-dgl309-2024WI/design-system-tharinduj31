@@ -72,6 +72,18 @@ td, th {
   color: var(--clr-primary-accent-bgcolor);
 }
 
+.c-top-nav__list__items {
+  list-style-type: none;
+ }
+.c-top-nav__links {
+  font-size: var(--fs-h5);
+  list-style-type: none;
+  margin: 10px 0;
+  color: var(--clr-primary-font-color);
+  text-decoration: none;
+
+}
+
 .c-swatch {
   width: fit-content;
   padding: 5px;
