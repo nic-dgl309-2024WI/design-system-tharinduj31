@@ -8,8 +8,9 @@ font-family: 'Roboto', sans-serif; */
   --clr-primary-accent-bgcolor: #1B7E32; /* green */
   --clr-primary-accent-font: #FFFFFF;  /* white */
 
-  --clr-secondary-font-color: #d9b4b4; /* Dark Grey */
-  --clr-secondary-bgcolor: #d93044; /* Dark Grey */
+  --clr-secondary-bgcolor: #F3F6E1; 
+  --clr-secondary-font-color: #2F3137; 
+
  
   --clr-light-bgcolor: #fff; /* White */  
   --clr-decorative: #dce651;
@@ -95,6 +96,9 @@ ol {
 
 .u-secondary-font-color {
   color: var(--clr-secondary-font-color);
+}
+.u-secondary-font-color-bg {
+  background-color: var(--clr-secondary-font-color);
 }
 
 .u-secondary-bgcolor {
