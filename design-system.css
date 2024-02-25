@@ -41,9 +41,14 @@ td, th {
   font-family: var(--ff-sans-serif);
   font-size: var(--fs-body);
   border-collapse: collapse;
-  
-  
-}
+  }
+
+  .c-typography__table--size {
+
+    width: 600px;
+    padding: 4px;
+    border-collapse: collapse;
+    }
 
 
 .c-sidebar__link {
@@ -101,15 +106,5 @@ td, th {
     display: flex;
   }
 
-  .typography h1 {
-    font-size: var(--fs-800);
-  }
 
-  .typography h2 {
-    font-size: var(--fs-700);
-  }
-
-  .typography p {
-    font-size: var(--fs-600);
-  }
 }
