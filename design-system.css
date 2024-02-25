@@ -50,6 +50,11 @@ td, th {
     border-collapse: collapse;
     }
 
+    .c-typography__table__row{
+      font-family: var(--ff-sans-serif);
+      font-size: var(--fs-body);
+      font-weight: var(--fw-400-reg);
+    }
 
 .c-sidebar__link {
   text-decoration: none;
