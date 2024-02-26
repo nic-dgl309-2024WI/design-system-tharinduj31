@@ -19,48 +19,49 @@ aside {
   align-items: flex-start;
 }
 
-aside a:hover {
-  color: var(--clr-green); /* hover on links */
+.c-sidebar__list-item--active {
+  font-weight: var(--clr-secondary-font-color);
+  color: var(
+    --clr-secondary-font-color
+  ); /* Change color to indicate active state */
 }
 
-.active {
-  font-weight: bold;
-  color: #39ba2d; /* Change color to indicate active state */
-}
-
-
-td, th {
+td,
+th {
   border: 2px solid #ccc;
   padding: 8px;
 }
 
+/* Swatches table styles */
 .c-swatch__table--size {
-
   width: 300px;
   padding: 4px;
   font-family: var(--ff-sans-serif);
   font-size: var(--fs-body);
   border-collapse: collapse;
-  }
+}
 
-  .c-typography__table--size {
+/* typography table styles */
+.c-typography__table--size {
+  width: 600px;
+  padding: 4px;
+  border-collapse: collapse;
+}
 
-    width: 600px;
-    padding: 4px;
-    border-collapse: collapse;
-    }
+/* typography table row styles */
+.c-typography__table__row {
+  font-family: var(--ff-sans-serif);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-400-reg);
+}
 
-    .c-typography__table__row{
-      font-family: var(--ff-sans-serif);
-      font-size: var(--fs-body);
-      font-weight: var(--fw-400-reg);
-    }
-
+/* Side bar link Styles */
 .c-sidebar__link {
   text-decoration: none;
   color: var(--clr-primary-font-color);
 }
 
+/* Side bar list items Styles */
 .c-sidebar__list__items {
   font-size: var(--fs-h4);
   list-style-type: none;
@@ -68,22 +69,27 @@ td, th {
   color: var(--clr-primary-font-color);
 }
 
+/* Side bar hover state changing styles */
 .c-sidebar__list-items--hover:hover {
   color: var(--clr-primary-accent-bgcolor);
 }
+.c-top-nav__list__items--hover:hover {
+  color: var(--clr-primary-accent-bgcolor);
+}
 
+/* top nav bar list items Styles */
 .c-top-nav__list__items {
   list-style-type: none;
- }
+}
 .c-top-nav__links {
   font-size: var(--fs-h5);
   list-style-type: none;
   margin: 10px 0;
   color: var(--clr-primary-font-color);
   text-decoration: none;
-
 }
 
+/* Swatch styles */
 .c-swatch {
   width: fit-content;
   padding: 5px;
@@ -122,6 +128,4 @@ td, th {
     list-style-type: none;
     display: flex;
   }
-
-
 }

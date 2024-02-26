@@ -45,7 +45,6 @@ font-family: 'Roboto', sans-serif; */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
   margin: 0;
   padding: 0;
-  /* font-size: 62.5%; */
 }
 
 body,
@@ -67,9 +66,7 @@ ol {
 }
 
 
-/* Colors */
-
-
+/* Colors utility classes*/
 .u-primary-bgcolor {
   background-color: var(--clr-primary-bgcolor);
 }
@@ -115,6 +112,7 @@ ol {
   font-family: var(--ff-sans-serif);
 }
 
+/* Utility classes */
 .u-fs-body { font-size: var(--fs-body); } 
 .u-fs-subheading { font-size: var(--fs-subheading); } 
 .u-fs-h6 { font-size: var(--fs-h6); } 
@@ -124,7 +122,7 @@ ol {
 .u-fs-h2 { font-size: var(--fs-h2); } 
 .u-fs-h1 { font-size: var(--fs-h1); } 
 
-
+/* font weight utility classes */
 .u-fw-light { font-weight: var(--fw-300-light); }
 .u-fw-reg { font-weight: var(--fw-400-reg); }
 .u-fw-med { font-weight: var(--fw-500-med); }
@@ -133,12 +131,14 @@ ol {
 .u-fw-extrabold { font-weight: var(--fw-800-exrabold); }
 .u-fw-black { font-weight: var(--fw-900-black); }
 
+/* font letter spacing utility classes */
 .u-letter-spacing-heading { letter-spacing: 0.8px; }
 .u-letter-spacing-subheading { letter-spacing: 0.64px; }
 .u-letter-spacing-body { letter-spacing: 0.5px; }
 .u-letter-spacing-caption { letter-spacing: 0.35px; }
 .u-letter-spacing-typeface { letter-spacing: 2.5px; }
 
+/* headers utility classes */
 .u-h1 {	
   font-size: var(--fs-h1);
   font-weight: var(--fw-800-exrabold);
@@ -188,6 +188,7 @@ ol {
   color: var(--clr-primary-font-color);
   }
 
+/* Uppercase utility class */
 .u-uppercase { text-transform: uppercase; }
 
 
