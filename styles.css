@@ -202,6 +202,14 @@ ol {
 .l-mx-1 { margin-left: 1rem; margin-right: 1rem; }
 .l-my-1 { margin-top: 1rem; margin-bottom: 1rem; }
 
+/* Padding */
+.l-p { padding: 1rem; }
+.l-pt-1 { padding-top: 1rem; }
+.l-pb-1 { padding-bottom: 1rem; }
+.l-pl-1 { padding-left: 1rem; }
+.l-pr-1 { padding-right: 1rem; }
+.l-px-1 { padding-left: 1rem; padding-right: 1rem; }
+.l-py-1 { padding-top: 1rem; padding-bottom: 1rem; }
 
 
 
