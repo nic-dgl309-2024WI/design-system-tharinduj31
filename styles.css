@@ -311,6 +311,13 @@ ol {
 .l-grid-center { justify-items: center; align-items: center; }
 .l-grid-center-content { place-content: center; }
 
+/* Flex layout for desktop */
+@media (min-width: 1000px) {
+  .l-container-flex { 
+    display: flex;
+   }
+}
+
 
 
 
