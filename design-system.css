@@ -91,10 +91,18 @@ th {
 
 /* Swatch styles */
 .c-swatch {
-  width: fit-content;
-  padding: 5px;
+  width: 250px;
+  height: 100px;
+ }
+
+.c-swatch-details{
   font-family: var(--ff-sans-serif);
   font-size: var(--fs-body);
+  /* width: 30%; */
+}
+
+.c-list-style{
+  list-style: none;
 }
 
 /* small devices (mobile devices, upto 1000px).......................................*/
