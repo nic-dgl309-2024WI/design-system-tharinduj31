@@ -20,14 +20,28 @@
   <body>
     <header class="c-top-nav__list__items">
       <div id="logo">
-        <a class="c-top-nav__links c-top-nav__list__items--hover" href="index.html">Design System</a>
+        <a
+          class="c-top-nav__links c-top-nav__list__items--hover"
+          href="index.html"
+          >Design System</a
+        >
       </div>
       <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
       <!-- Desktop nav bar -->
       <nav id="nav-bar">
         <ul id="nav-items">
-          <li><a class="c-top-nav__links c-top-nav__list__items--hover" href="about-me.html">About me</a></li>
-          <li><a class="c-top-nav__links c-top-nav__list__items--hover" href="">Demo Site</a></li>
+          <li>
+            <a
+              class="c-top-nav__links c-top-nav__list__items--hover"
+              href="about-me.html"
+              >About me</a
+            >
+          </li>
+          <li>
+            <a class="c-top-nav__links c-top-nav__list__items--hover" href=""
+              >Demo Site</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -36,8 +50,18 @@
       <!-- Mobile nav bar -->
       <div id="nav-bar2">
         <ul id="nav-items2">
-          <li><a class="c-top-nav__links c-top-nav__list__items--hover" href="about-me.html">About me</a></li>
-          <li><a class="c-top-nav__links c-top-nav__list__items--hover" href="">Demo Site</a></li>
+          <li>
+            <a
+              class="c-top-nav__links c-top-nav__list__items--hover"
+              href="about-me.html"
+              >About me</a
+            >
+          </li>
+          <li>
+            <a class="c-top-nav__links c-top-nav__list__items--hover" href=""
+              >Demo Site</a
+            >
+          </li>
         </ul>
       </div>
 
@@ -57,7 +81,11 @@
             >02 Typography</a
           >
         </li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">03 Logo</a></li>
+        <li>
+          <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+            >03 Logo</a
+          >
+        </li>
       </ol>
 
       <li class="c-sidebar__list__items">Utilities</li>
@@ -152,67 +180,76 @@
       </ol>
     </aside>
     <br />
-    <section>
-      <h3 class="u-ff-sans-serif u-h3 u-primary-font-color">Typography</h3>
+    <section class="colors l-mx-2">
+      <h5 class="u-ff-sans-serif u-h4 u-primary-font-color">Typography</h5>
       <br />
       <span class="u-ff-sans-serif u-h5 u-primary-font-color"
         >Font family: "Montserrat", sans-serif</span
       >
-      <br />
+      <p class="u-fs-body u-ff-sans-serif l-pt-0-5">
+        "Montserrat" is a modern sans-serif font commonly used in various design
+        applications and websites. Its clean and elegant appearance makes it
+        suitable for both headings and body text. With its extensive range of
+        weights and styles, "Montserrat" offers versatility while maintaining
+        readability across different screen sizes and devices.
+      </p>
       <!-- h1 typography  -->
-      <table class="c-typography__table--size">
-        <tr>
-          <td colspan="4">
-            <h1
-              class="u-ff-sans-serif u-fs-h1 u-fw-bold u-letter-spacing-heading u-primary-font-color u-uppercase"
-            >
-              abcdefghijklmnopqrstuvwxyz
-            </h1>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="4">
-            <h1
-              class="u-ff-sans-serif u-fs-h1 u-fw-bold u-letter-spacing-heading u-primary-font-color"
-            >
-              abcdefghijklmnopqrstuvwxyz
-            </h1>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="4">
-            <h1
-              class="u-ff-sans-serif u-fs-h1 u-fw-bold u-letter-spacing-heading u-primary-font-color"
-            >
-              1234567890
-            </h1>
-          </td>
-        </tr>
-        <tr class="c-typography__table__row">
-          <td>font size</td>
-          <td>font weight</td>
-          <td>Letter spacing</td>
-        </tr>
-        <tr class="c-typography__table__row">
-          <td>4 rem</td>
-          <td>Bold: 700</td>
-          <td>0.8px</td>
-        </tr>
-        <tr class="c-typography__table__row">
-          <td colspan="4">
-            Class: u-ff-sans-serif u-fs-h1 u-fw-bold u-letter-spacing-heading
-            u-primary-font-color
-          </td>
-        </tr>
-        <tr class="c-typography__table__row">
-          <td colspan="4">
-            <p>Used for h1 main heading</p>
-          </td>
-        </tr>
-      </table>
+      <div class="l-pt-1">
+        <table class="c-typography__table--size l-border">
+          <tr>
+            <td colspan="4">
+              <h1
+                class="u-ff-sans-serif u-fs-h1 u-fw-bold u-letter-spacing-heading u-primary-font-color u-uppercase"
+              >
+                abcdefghijklmnopqrstuvwxyz
+              </h1>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <h1
+                class="u-ff-sans-serif u-fs-h1 u-fw-bold u-letter-spacing-heading u-primary-font-color"
+              >
+                abcdefghijklmnopqrstuvwxyz
+              </h1>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <h1
+                class="u-ff-sans-serif u-fs-h1 u-fw-bold u-letter-spacing-heading u-primary-font-color"
+              >
+                1234567890
+              </h1>
+            </td>
+          </tr>
+          <tr class="c-typography__table__row">
+            <td>font size</td>
+            <td>font weight</td>
+            <td>Letter spacing</td>
+          </tr>
+          <tr class="c-typography__table__row">
+            <td>4 rem</td>
+            <td>Bold: 700</td>
+            <td>0.8px</td>
+          </tr>
+          <tr class="c-typography__table__row">
+            <td colspan="4">
+              Class: u-ff-sans-serif u-fs-h1 u-fw-bold u-letter-spacing-heading
+              u-primary-font-color
+            </td>
+          </tr>
+          <tr class="c-typography__table__row">
+            <td colspan="4">
+              <p>Used for h1 main heading</p>
+            </td>
+          </tr>
+        </table>
+      </div>
       <br />
       <!-- h2 typography  -->
-      <table class="c-typography__table--size">
+      <div class="l-pt-1">
+      <table class="c-typography__table--size l-border">
         <tr>
           <td colspan="4">
             <h2
@@ -262,9 +299,11 @@
           </td>
         </tr>
       </table>
+    </div>
       <br />
       <!-- h3 typography  -->
-      <table class="c-typography__table--size">
+      <div class="l-pt-1">
+      <table class="c-typography__table--size l-border">
         <tr>
           <td colspan="4">
             <h3
@@ -314,9 +353,11 @@
           </td>
         </tr>
       </table>
+      </div>
       <br />
       <!-- h4 typography  -->
-      <table class="c-typography__table--size">
+      <div class="l-pt-1">
+      <table class="c-typography__table--size l-border">
         <tr>
           <td colspan="4">
             <h4
@@ -366,9 +407,11 @@
           </td>
         </tr>
       </table>
+      </div>
       <br />
       <!-- h5 typography  -->
-      <table class="c-typography__table--size">
+      <div class="l-pt-1">
+      <table class="c-typography__table--size l-border">
         <tr>
           <td colspan="4">
             <h5
@@ -419,11 +462,11 @@
         </tr>
       </table>
       <br />
-      <table class="c-typography__table--size">
+      <table class="c-typography__table--size l-border">
         <tr>
           <td colspan="4">
             <span
-              class="u-ff-sans-serif u-fs-body u-fw-med u-letter-spacing-body u-secondary-font-color u-uppercase"
+              class="u-ff-sans-serif u-fs-body u-fw-med u-letter-spacing-body u-primary-font-color u-uppercase"
             >
               abcdefghijklmnopqrstuvwxyz
             </span>
@@ -432,7 +475,7 @@
         <tr>
           <td colspan="4">
             <span
-              class="u-ff-sans-serif u-fs-body u-fw-med u-letter-spacing-body u-secondary-font-color"
+              class="u-ff-sans-serif u-fs-body u-fw-med u-letter-spacing-body u-primary-font-color"
             >
               abcdefghijklmnopqrstuvwxyz
             </span>
@@ -441,7 +484,7 @@
         <tr>
           <td colspan="4">
             <span
-              class="u-ff-sans-serif u-fs-body u-fw-med u-letter-spacing-body u-secondary-font-color"
+              class="u-ff-sans-serif u-fs-body u-fw-med u-letter-spacing-body u-primary-font-color"
             >
               1234567890
             </span>
@@ -469,7 +512,7 @@
           </td>
         </tr>
       </table>
-      <br />
+      </div>
     </section>
 
     <script src="design-system.js"></script>
