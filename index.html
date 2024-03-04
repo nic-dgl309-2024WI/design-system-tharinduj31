@@ -17,70 +17,174 @@
       rel="stylesheet"
     />
   </head>
-  <body >
+  <body>
     <header class="c-top-nav__list__items">
       <div id="logo">
-        <a class="c-top-nav__links c-top-nav__list__items--hover" href="index.html">Design System</a>
+        <a
+          class="c-top-nav__links c-top-nav__list__items--hover"
+          href="index.html"
+          >Design System</a
+        >
       </div>
       <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
       <!-- Desktop nav bar -->
       <nav id="nav-bar">
         <ul id="nav-items">
-          <li><a class="c-top-nav__links c-top-nav__list__items--hover" href="about-me.html">About me</a></li>
-          <li><a class="c-top-nav__links c-top-nav__list__items--hover" href="">Demo Site</a></li>
+          <li>
+            <a
+              class="c-top-nav__links c-top-nav__list__items--hover"
+              href="about-me.html"
+              >About me</a
+            >
+          </li>
+          <li>
+            <a class="c-top-nav__links c-top-nav__list__items--hover" href=""
+              >Demo Site</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
+    <div class="l-container-flex">
+      <aside id="aside-items" class="c-sidebar u-ff-sans-serif">
+        <!-- Mobile nav bar -->
+        <div id="nav-bar2">
+          <ul id="nav-items2">
+            <li>
+              <a
+                class="c-top-nav__links c-top-nav__list__items--hover"
+                href="about-me.html"
+                >About me</a
+              >
+            </li>
+            <li>
+              <a class="c-top-nav__links c-top-nav__list__items--hover" href=""
+                >Demo Site</a
+              >
+            </li>
+          </ul>
+        </div>
 
-    <aside id="aside-items" class="c-sidebar u-ff-sans-serif">
-         <!-- Mobile nav bar -->
-      <div id="nav-bar2">
-        <ul id="nav-items2">
-          <li><a class="c-top-nav__links c-top-nav__list__items--hover" href="about-me.html">About me</a></li>
-          <li><a class="c-top-nav__links c-top-nav__list__items--hover" href="">Demo Site</a></li>
-        </ul>
-      </div>
+        <li class="c-sidebar__list__items">Branding</li>
+        <ol>
+          <li>
+            <a
+              class="c-sidebar__link c-sidebar__list-items--hover"
+              href="color.html"
+              >01 Colours</a
+            >
+          </li>
+          <li>
+            <a
+              class="c-sidebar__link c-sidebar__list-items--hover"
+              href="typography.html"
+              >02 Typography</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >03 Logo</a
+            >
+          </li>
+        </ol>
 
-      <li class="c-sidebar__list__items">Branding</li>
-      <ol>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="color.html">01 Colours</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="typography.html">02 Typography</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">03 Logo</a></li>
-      </ol>
+        <li class="c-sidebar__list__items">Utilities</li>
+        <ol>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href="spacing.html"
+              >04 Spacing</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >05 Containers</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >06 Images</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >07 Interactive</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >08 Feedback</a
+            >
+          </li>
+        </ol>
 
-      <li class="c-sidebar__list__items">Utilities</li>
-      <ol >
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">04 Containers</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">05 Images</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">06 nteractive</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">07 Feedback</a></li>
-      </ol>
+        <li class="c-sidebar__list__items">Navigation</li>
+        <ol>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >09 Navbars</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >10 Breadcrumbs</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >11 Pagination</a
+            >
+          </li>
+        </ol>
 
-      <li class="c-sidebar__list__items">Navigation</li>
-      <ol>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">08 Navbars</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">09 Breadcrumbs</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">10 Pagination</a></li>
-      </ol>
+        <li class="c-sidebar__list__items">Blocks</li>
+        <ol>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >12 Hero</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >13 Carousel</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >14 Slats</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >15 Footer</a
+            >
+          </li>
+        </ol>
 
-      <li class="c-sidebar__list__items">Blocks</li>
-      <ol>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">11 Hero</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">12 Carousel</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">13 Slats</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">14 Footer</a></li>
-      </ol>
-
-      <li class="c-sidebar__list__items">Components</li>
-      <ol>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">15 Cards</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">16 Forms</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">17 Accordion</a></li>
-        <li><a class="c-sidebar__link c-sidebar__list-items--hover" href="">18 Lists</a></li>
-      </ol>
-      
-    </aside>
-
+        <li class="c-sidebar__list__items">Components</li>
+        <ol>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >16 Cards</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >17 Forms</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >18 Accordion</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >19 Lists</a
+            >
+          </li>
+        </ol>
+      </aside>
+    </div>
     <script src="design-system.js"></script>
   </body>
 </html>
