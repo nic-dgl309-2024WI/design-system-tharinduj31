@@ -159,7 +159,7 @@ th {
   }
 
   .wrapper{
-    max-width: 75%;
+    width: 100%;
     position: sticky;
     overflow-x: auto;
     overflow-y: auto;
