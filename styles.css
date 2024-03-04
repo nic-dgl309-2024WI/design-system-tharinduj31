@@ -39,6 +39,7 @@ font-family: 'Roboto', sans-serif; */
   --fw-700-bold: 700;
   --fw-800-exrabold: 800;
   --fw-900-black: 900;
+  --header-height: 60px;
 }
 
 * {

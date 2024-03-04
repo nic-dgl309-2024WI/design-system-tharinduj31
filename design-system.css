@@ -8,7 +8,7 @@ nav {
   display: none; /* Hide navigation by default */
 }
 
-aside {
+.c-sidebar {
   display: none; /* Hide aside by default */
 }
 
@@ -119,7 +119,7 @@ th {
 
 /* Larger devices (from 1000px).......................................*/
 @media (min-width: 1000px) {
-  aside {
+  .c-sidebar {
     /* list-style-type: none; */
     display: inline;
   }
@@ -141,6 +141,20 @@ th {
     display: flex;
   }
 
+  .c-sidebar {
+    width: 300px;
+    position: sticky;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: calc(100vh - var(--header-height));
+  }
+
+  .wrapper{
+    position: sticky;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: calc(100vh - var(--header-height)); 
+  }
 
 
 }
