@@ -150,8 +150,9 @@ th {
   }
 
   .wrapper{
+    max-width: 75%;
     position: sticky;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
     height: calc(100vh - var(--header-height)); 
   }
