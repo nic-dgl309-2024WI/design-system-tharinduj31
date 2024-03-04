@@ -316,7 +316,7 @@ ol {
   max-width: 1000px; /* Adjust as needed */
   margin-inline: auto;
   background-color: var(--clr-primary-bgcolor);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .l-full-width-section {
