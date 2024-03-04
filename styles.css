@@ -313,16 +313,12 @@ ol {
 .l-grid-center-content { place-content: center; }
 
 .l-max-width-section {
-  max-width: 1000px; /* Adjust as needed */
+  max-width: 1200px; /* Adjust as needed */
   margin-inline: auto;
-  background-color: var(--clr-primary-bgcolor);
-  /* text-align: center; */
 }
 
 .l-full-width-section {
   width: 100%;
-  background-color: var(--clr-primary-bgcolor);
-  text-align: center;
 }
 
 
