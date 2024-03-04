@@ -41,6 +41,15 @@ th {
   border-collapse: collapse;
 }
 
+/* Spacing table styles */
+.c-spacing__table--size {
+  width: 400px;
+  padding: 4px;
+  font-family: var(--ff-sans-serif);
+  font-size: var(--fs-body);
+  border-collapse: collapse;
+}
+
 /* typography table styles */
 .c-typography__table--size {
   width: 600px;
