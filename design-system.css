@@ -91,11 +91,11 @@ th {
   list-style-type: none;
 }
 .c-top-nav__links {
-  font-size: var(--fs-h5);
+  font-size: var(--fs-h6);
   list-style-type: none;
-  margin: 10px 0;
   color: var(--clr-primary-font-color);
   text-decoration: none;
+  padding-right: 10px;
 }
 
 /* Swatch styles */
@@ -151,15 +151,16 @@ th {
   }
 
   .c-sidebar {
-    width: 300px;
+    width: 20%;
     position: sticky;
     overflow-x: hidden;
     overflow-y: auto;
     height: calc(100vh - var(--header-height));
+    list-style: none;
   }
 
   .wrapper{
-    width: 100%;
+    width: 80%;
     position: sticky;
     overflow-x: auto;
     overflow-y: auto;
