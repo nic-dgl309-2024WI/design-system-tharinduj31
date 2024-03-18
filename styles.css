@@ -328,7 +328,7 @@ ol {
 
 
 /* Flex layout for desktop */
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .l-container-flex { 
     display: flex;
    
@@ -340,6 +340,17 @@ ol {
 
 
 }
+
+@media (max-width: 800px) {
+
+   .c-swatch__table--size {
+      margin: auto;
+  }
+
+
+}
+
+
 
 
 
