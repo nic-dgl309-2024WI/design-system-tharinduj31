@@ -208,6 +208,7 @@ ol {
 .l-mt-1-75 { margin-top: 1.75rem; }
 .l-mt-2 { margin-top: 2rem; }
 /* Margin Bottom */
+.l-mb-0-5 { margin-bottom: .5rem; }
 .l-mb-1 { margin-bottom: 1rem; }
 .l-mb-1-25 { margin-bottom: 1.25rem; }
 .l-mb-1-5 { margin-bottom: 1.5rem; }
@@ -325,6 +326,14 @@ ol {
   text-align: center;
 }
 
+.l-margine-auto{
+  margin: auto;
+}
+
+.l-width-800{
+  max-width: 800px;
+}
+
 
 
 
@@ -353,6 +362,14 @@ ol {
     overflow-x: scroll;
   
   }
+
+
+  /* ceenter list on mobile -about me */
+  .l-flex-center--mobile{
+    justify-content: center; 
+    align-items: center;
+  }
+
 
 
 }
