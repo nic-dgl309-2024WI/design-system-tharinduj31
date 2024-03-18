@@ -52,18 +52,12 @@ th {
 
 /* typography table styles */
 .c-typography__table--size {
-  width: 600px;
+  width: 700px;
   padding: 4px;
-  max-width: fit-content;
-  max-height: fit-content;
   border-collapse: collapse;
 }
 
-.c-typography__table__fixed{
-  overflow-x: scroll;
-  overflow-y: scroll;
 
-}
 
 
 

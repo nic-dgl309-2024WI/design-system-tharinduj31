@@ -349,6 +349,11 @@ ol {
       margin: auto;
   }
 
+  .c-typography__table__fixed{
+    overflow-x: scroll;
+  
+  }
+
 
 }
 
