@@ -321,6 +321,10 @@ ol {
   width: 100%;
 }
 
+.l-align-centre{
+  text-align: center;
+}
+
 
 
 /* Flex layout for desktop */
@@ -329,6 +333,12 @@ ol {
     display: flex;
    
    }
+
+   .l-align-centre{
+    text-align: left;
+   }
+
+
 }
 
 

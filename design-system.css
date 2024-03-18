@@ -102,6 +102,7 @@ th {
 .c-swatch {
   width: 250px;
   height: 100px;
+  margin: auto;
  }
 
 .c-swatch-details{
