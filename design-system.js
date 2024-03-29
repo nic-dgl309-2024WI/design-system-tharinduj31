@@ -5,3 +5,5 @@ function showNav() {
     var ele = document.getElementById("aside-items");
     ele.classList.toggle("show-items");
   }
+
+
