@@ -505,6 +505,11 @@ a{
   display: none;
 }
 
+.c-card p{
+ max-width:  200px;
+ margin: auto;
+}
+
 
 
 
