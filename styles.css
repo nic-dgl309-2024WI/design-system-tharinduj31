@@ -335,7 +335,9 @@ ol {
   max-width: 800px;
 }
 
-
+.l-height-view-height{
+  height: 100vh; 
+}
 
 
 
@@ -381,16 +383,11 @@ ol {
 .bg {
   /* The image used */
   background-image: url("images/Hero_image.jpg");
-
-  /* Full height */
-  height: 100vh; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
+  /* height: 100vh;  */
+  background-position: center;   /* Center and scale the image nicely */
   background-repeat: no-repeat;
   background-size: cover;
 
- */
 }
 
 nav {
@@ -422,12 +419,44 @@ a{
   text-decoration: none;
 }
 
+.l-card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+  /* max-width: 800px; */
+
+
+}
+
+.c-card{
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+  margin: 20px;
+  text-align: center;
+}
+
+.c-card img{
+  min-width: 250px;
+  max-width:  250px;
+  /* width: fit-content; */
+  height: 300px;
+  object-fit: cover;
+}
+
+
+
+
 
 
 /* small devices (mobile devices, upto 800px).......................................*/
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 
-}
+} */
 
 /* Larger devices (from 800px).......................................*/
 @media (min-width: 800px) {
