@@ -301,6 +301,7 @@ ol {
 .l-flex-align-start { align-items: flex-start; }
 .l-flex-align-center { align-items: center; }
 .l-flex-align-end { align-items: flex-end; }
+.l-text-align{text-align: center; }
 
 /* Grid Layout */
 .l-grid { display: grid; }
@@ -422,8 +423,8 @@ a{
 .l-card-wrapper{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  flex: 1;
+  justify-content: space-between;
+  /* flex: 1; */
   /* max-width: 800px; */
 
 
@@ -436,7 +437,7 @@ a{
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
   background: linear-gradient(to right, #ffffff, #ece9e6);
-  margin: 20px;
+  /* margin: 20px; */
   text-align: center;
 }
 
@@ -446,6 +447,42 @@ a{
   /* width: fit-content; */
   height: 300px;
   object-fit: cover;
+}
+
+.wrapper-gift-card{
+  display: flex;
+  align-items: center;
+  
+}
+
+.wrapper-gift-card img{
+  width: 30% ;
+}
+
+/* CTA */
+.c-button-wrapper {
+  display: block;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  border-radius: 2em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 5em;
+  width: auto;
+  text-transform: uppercase;
+}
+
+.cta-button {
+  background-color: #000;
+  color: #fff !important;
+}
+
+.cta-button:hover {
+  background-color: #777;
 }
 
 
