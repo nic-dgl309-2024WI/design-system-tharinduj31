@@ -510,6 +510,27 @@ a{
  margin: auto;
 }
 
+.c-card--facebook{
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
+  /* box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: linear-gradient(to right, #ffffff, #ece9e6); */
+  /* margin: 20px; */
+  text-align: center;
+}
+.c-card--facebook img{
+  width:  250px;
+  height: 350px;
+  object-fit: fill;
+  /* width: fit-content;
+  overflow: hidden;
+  margin: auto;
+  overflow: hidden; */
+
+}
+
 
 
 
