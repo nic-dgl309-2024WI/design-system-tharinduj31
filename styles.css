@@ -792,6 +792,10 @@ a {
     display: flex;
   }
 
+  .l-main-wrapper{
+    text-align: left;
+  }
+
   footer {
     display: flex;
     justify-content: space-between;
