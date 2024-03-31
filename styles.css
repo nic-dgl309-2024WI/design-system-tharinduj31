@@ -734,7 +734,6 @@ a {
 }
 
 
-
 .image-container {
   display: none;
   /* flex-wrap: wrap;
@@ -746,6 +745,11 @@ a {
   object-fit: cover;
   display: none;
 }
+
+.l-card-wrapper--desktop{
+  display: none;
+}
+
 
 .c-card p {
   max-width: 200px;
@@ -840,6 +844,12 @@ a {
     display: flex;     /*show images on desktop view*/
     flex-wrap: wrap;
     margin-top: 20px;
+  }
+
+
+  /* Resource section */
+  .l-wrapper-resources-mobile{
+    display: none;       /*hide mobile wrapper on desktop view*/
   }
 
  
