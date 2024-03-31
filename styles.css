@@ -175,6 +175,11 @@ ol {
   letter-spacing: 2.5px;
 }
 
+/* font line height utility classes */
+.u-line-height-body {
+  line-height: 2rem;
+}
+
 /* headers utility classes */
 .u-h1 {
   font-size: var(--fs-h1);
@@ -230,8 +235,8 @@ ol {
   text-transform: uppercase;
 }
 
-.u-list-style{
- list-style: none;
+.u-list-style {
+  list-style: none;
 }
 
 /* Base spacing classes */
@@ -753,7 +758,7 @@ a {
 
 .cta-button {
   background-color: var(--clr-primary-accent-bgcolor);
-  color:  var(--clr-primary-accent-font);
+  color: var(--clr-primary-accent-font);
 }
 
 .cta-button:hover {
@@ -766,7 +771,7 @@ a {
   align-items: flex-start;
 }
 
-.wrapper-Annettes-favourites li{
+.wrapper-Annettes-favourites li {
   padding-bottom: 8px;
 }
 
@@ -780,7 +785,6 @@ a {
   height: 300px;
   object-fit: cover;
   display: none;
- 
 }
 
 .l-card-wrapper--desktop {
@@ -877,12 +881,17 @@ a {
     width: 30%;
   }
 
+  .wrapper-gift-card p {
+    width: 50%;
+    margin: auto;
+  }
+
   /* Annette's favourit  section */
   .image-container {
     display: flex; /*show images on desktop view*/
     flex-wrap: wrap;
     /* margin-top: 20px; */
-    margin: auto
+    margin: auto;
   }
 
   /* Resource section */
