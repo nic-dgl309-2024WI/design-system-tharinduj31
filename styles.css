@@ -752,12 +752,12 @@ a {
 }
 
 .cta-button {
-  background-color: #000;
-  color: #fff !important;
+  background-color: var(--clr-primary-accent-bgcolor);
+  color:  var(--clr-primary-accent-font);
 }
 
 .cta-button:hover {
-  background-color: #777;
+  background-color: var(--clr-primary-font-color);
 }
 
 .wrapper-Annettes-favourites {
