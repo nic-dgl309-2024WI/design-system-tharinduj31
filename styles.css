@@ -776,6 +776,10 @@ a {
   overflow: hidden; */
 }
 
+.l-card-wrapper-facebook-mobile{
+  display: none;
+}
+
 /* small devices (mobile devices, upto 800px).......................................*/
 @media (max-width: 800px) {
   .c-card--mobile {
@@ -786,6 +790,9 @@ a {
     width: 80%;
     margin: auto;
   }
+
+
+  
 
 
 }
@@ -852,5 +859,8 @@ a {
     display: none;       /*hide mobile wrapper on desktop view*/
   }
 
+  .l-card-wrapper-facebook-mobile{
+    display: flex;
+  }
  
 }
