@@ -420,14 +420,11 @@ a{
   text-decoration: none;
 }
 
+
+/* card styles on products section */
 .l-card-wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* flex: 1; */
-  /* max-width: 800px; */
-
-
+  width: 80%;
+  margin: auto;
 }
 
 .c-card{
@@ -443,7 +440,7 @@ a{
 
 .c-card img{
   min-width: 250px;
-  max-width:  250px;
+  /* max-width:  250px; */ 
   /* width: fit-content; */
   height: 300px;
   object-fit: cover;
@@ -534,12 +531,12 @@ a{
 
 
 
-
-
-/* small devices (mobile devices, upto 800px).......................................*/
-/* @media (max-width: 800px) {
-
-} */
+/* small devices (mobile devices, upto 800px).......................................*/ 
+ @media (max-width: 800px) {
+  .c-card--mobile{
+    display: none;
+  }
+}
 
 /* Larger devices (from 800px).......................................*/
 @media (min-width: 800px) {
@@ -560,6 +557,21 @@ a{
   footer{
     display: flex;
     justify-content: space-between;
+  }
+
+
+  /* Styles on desktop production section */
+
+  .l-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;   /* By pass 80% width on mobile */
+
+  }
+  .c-card img{
+    width: 250px;
+    height: 300px; 
   }
 
 
