@@ -230,6 +230,10 @@ ol {
   text-transform: uppercase;
 }
 
+.u-list-style{
+ list-style: none;
+}
+
 /* Base spacing classes */
 
 /* Margins */
@@ -266,6 +270,12 @@ ol {
 }
 .l-mt-2 {
   margin-top: 2rem;
+}
+.l-mt-2-5 {
+  margin-top: 2.5rem;
+}
+.l-mt-3 {
+  margin-top: 3rem;
 }
 /* Margin Bottom */
 .l-mb-0-5 {
@@ -384,72 +394,94 @@ ol {
 .l-pt-1 {
   padding-top: 1rem;
 }
+
 .l-pt-1-25 {
   padding-top: 1.25rem;
 }
+
 .l-pt-1-5 {
   padding-top: 1.5rem;
 }
+
 .l-pt-1-75 {
   padding-top: 1.75rem;
 }
+
 .l-pt-2 {
   padding-top: 2rem;
 }
+
 .l-pt-6 {
   padding-top: 6rem;
 }
+
 .l-pt-0-5 {
   padding-top: 0.5rem;
 }
+
 .l-pt-0-25 {
   padding-top: 0.25rem;
 }
+
 /* Padding Bottom */
 .l-pb-1 {
   padding-bottom: 1rem;
 }
+
 .l-pb-1-25 {
   padding-bottom: 1.25rem;
 }
+
 .l-pb-1-5 {
   padding-bottom: 1.5rem;
 }
+
 .l-pb-1-75 {
   padding-bottom: 1.75rem;
 }
+
 .l-pb-2 {
   padding-bottom: 2rem;
 }
+
 /* Padding Left */
 .l-pl-1 {
   padding-left: 1rem;
 }
+
 .l-pl-1-25 {
   padding-left: 1.25rem;
 }
+
 .l-pl-1-5 {
   padding-left: 1.5rem;
 }
+
 .l-pl-1-75 {
   padding-left: 1.75rem;
 }
+
 .l-pl-2 {
   padding-left: 2rem;
 }
+
 /* Padding Right */
 .l-pr-1 {
   padding-right: 1rem;
 }
+
 .l-pr-1-25 {
   padding-right: 1.25rem;
 }
+
 .l-pr-1-5 {
   padding-right: 1.5rem;
 }
+
 .l-pr-1-75 {
   padding-right: 1.75rem;
 }
+
 .l-pr-2 {
   padding-right: 2rem;
 }
@@ -699,7 +731,7 @@ a {
 } */
 
 .wrapper-gift-card img {
-  display: none;       /* Image hiddeden on mobile */        
+  display: none; /* Image hiddeden on mobile */
 }
 
 /* CTA */
@@ -733,7 +765,6 @@ a {
   justify-content: space-between;
 }
 
-
 .image-container {
   display: none;
   /* flex-wrap: wrap;
@@ -746,10 +777,9 @@ a {
   display: none;
 }
 
-.l-card-wrapper--desktop{
+.l-card-wrapper--desktop {
   display: none;
 }
-
 
 .c-card p {
   max-width: 200px;
@@ -776,7 +806,7 @@ a {
   overflow: hidden; */
 }
 
-.l-card-wrapper-facebook-mobile{
+.l-card-wrapper-facebook-mobile {
   display: none;
 }
 
@@ -786,15 +816,10 @@ a {
     display: none;
   }
 
-  .wrapper-Annettes-favourites ul{
+  .wrapper-Annettes-favourites ul {
     width: 80%;
     margin: auto;
   }
-
-
-  
-
-
 }
 
 /* Larger devices (from 800px).......................................*/
@@ -812,7 +837,7 @@ a {
     display: flex;
   }
 
-  .l-main-wrapper{
+  .l-main-wrapper {
     text-align: left;
   }
 
@@ -837,30 +862,28 @@ a {
   /* Gift card  section */
 
   .wrapper-gift-card {
-    display: flex;  
+    display: flex;
     align-items: center;
   }
 
   .wrapper-gift-card img {
-    display: flex;  /* Image display-on desktop */
+    display: flex; /* Image display-on desktop */
     width: 30%;
   }
 
   /* Annette's favourit  section */
   .image-container {
-    display: flex;     /*show images on desktop view*/
+    display: flex; /*show images on desktop view*/
     flex-wrap: wrap;
     margin-top: 20px;
   }
 
-
   /* Resource section */
-  .l-wrapper-resources-mobile{
-    display: none;       /*hide mobile wrapper on desktop view*/
+  .l-wrapper-resources-mobile {
+    display: none; /*hide mobile wrapper on desktop view*/
   }
 
-  .l-card-wrapper-facebook-mobile{
+  .l-card-wrapper-facebook-mobile {
     display: flex;
   }
- 
 }
