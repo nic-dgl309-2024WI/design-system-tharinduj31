@@ -837,6 +837,17 @@ a {
     width: 80%;
     margin: auto;
   }
+
+  h1 {
+    -webkit-text-stroke: 2px rgb(248, 247, 247); /* For WebKit-based browsers */
+ 
+  }
+
+  .l-hero-wrapper p{
+    margin-top: 33%;
+  }
+
+
 }
 
 /* Larger devices (from 800px).......................................*/
