@@ -1,10 +1,14 @@
 function showNav() {
-    var element = document.getElementById("nav-items");
-    element.classList.toggle("show-items");
-    
-    var ele = document.getElementById("aside-items");
-    ele.classList.toggle("show-items");
-  }
+  var element = document.getElementById("nav-items");
+  element.classList.toggle("show-items");
+  
+  var ele = document.getElementById("aside-items");
+  ele.classList.toggle("show-items");
+
+  var mainWrapper = document.querySelector('.l-main-wrapper');
+  mainWrapper.classList.toggle('l-main-wrapper--hide');
+}
+
 
 
   function changeImage(imageId) {

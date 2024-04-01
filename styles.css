@@ -839,6 +839,10 @@ a {
   display: none;
 }
 
+
+
+
+
 /* small devices (mobile devices, upto 800px).......................................*/
 @media (max-width: 800px) {
   .c-card--mobile {
@@ -864,10 +868,14 @@ a {
     margin-top: 12%;
   }
 
-
+  .l-main-wrapper--hide{
+    display: none;
+  }
 
 
 }
+
+
 
 /* Larger devices (from 800px).......................................*/
 @media (min-width: 800px) {
