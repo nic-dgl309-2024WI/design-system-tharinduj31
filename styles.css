@@ -230,6 +230,13 @@ ol {
   color: var(--clr-primary-font-color);
 }
 
+.u-header {
+  font-size: var(--fs-h6);
+  font-weight: var(--fw-500-med);
+  letter-spacing: 0;
+  color: var(--clr-primary-font-color);
+}
+
 /* Uppercase utility class */
 .u-uppercase {
   text-transform: uppercase;
@@ -634,9 +641,8 @@ ol {
 }
 
 .l-height-view-height {
-  height: 100vh;
+  height: calc(100vh - 90px);    /*reduce nav bar height 80px*/
 }
-
 /* Flex layout for desktop */
 @media (min-width: 800px) {
   .l-container-flex {
@@ -687,6 +693,7 @@ nav {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .c-mobile-nav {
@@ -902,4 +909,11 @@ a {
   .l-card-wrapper-facebook-mobile {
     display: flex;
   }
+
+  .l-hero-wrapper p{
+    margin-top: 18%;
+  }
 }
+
+
+
