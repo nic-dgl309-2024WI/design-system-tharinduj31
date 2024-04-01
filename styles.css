@@ -845,6 +845,11 @@ a {
     display: none;
   }
 
+  .c-card--hidden {
+    display: none;
+  }
+  
+
   .wrapper-Annettes-favourites ul {
     width: 80%;
     margin: auto;
@@ -858,6 +863,8 @@ a {
   .l-hero-wrapper p{
     margin-top: 12%;
   }
+
+
 
 
 }
@@ -935,6 +942,14 @@ a {
 
   .l-hero-wrapper p{
     margin-top: 18%;
+  }
+
+  #button-view-more{
+    display: none;
+  }
+
+  #button-view-less{
+    display: none;
   }
 }
 
