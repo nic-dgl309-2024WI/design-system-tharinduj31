@@ -727,15 +727,11 @@ a {
   text-align: center;
 }
 
-.c-card img {
-  min-width: 250px;
-  /* max-width:  250px; */
-  /* width: fit-content; */
-  height: 300px;
+.c-card__img {
   object-fit: cover;
 }
 
-.c-card h2{
+.c-card__text-CTA{
   color: var(--clr-primary-accent-font);
   background-color: var(--clr-primary-accent-bgcolor);
   font-size: 1em;
@@ -909,7 +905,7 @@ a {
     justify-content: space-between;
     width: 100%; /* By pass 80% width on mobile */
   }
-  .c-card img {
+  .c-card__img {
     width: 250px;
     height: 300px;
   }
