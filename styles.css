@@ -672,7 +672,7 @@ ol {
 
 /* Styles on Index.html ..........................................................................*/
 
-.bg {
+.l-hero-background {
   /* The image used */
   background-image: url("images/Hero_image.jpg");
   /* height: 100vh;  */
