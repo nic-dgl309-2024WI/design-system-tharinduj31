@@ -18,53 +18,8 @@
     />
   </head>
   <body class="l-max-width-section">
-    <header class="c-top-nav__list__items u-ff-sans-serif l-mb-1 u-header ">
-      <div id="logo">
-        <a
-          class="c-top-nav__links c-top-nav__list__items--hover"
-          href="design-system.html"
-          >Design System</a
-        >
-      </div>
-      <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
-      <!-- Desktop nav bar -->
-      <nav id="nav-bar">
-        <ul id="nav-items">
-          <li>
-            <a
-              class="c-top-nav__links c-top-nav__list__items--hover"
-              href="about-me.html"
-              >About me</a
-            >
-          </li>
-          <li>
-            <a class="c-top-nav__links c-top-nav__list__items--hover" href=""
-              >Demo Site</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
     <div class="l-container-flex">
-      <aside id="aside-items" class="c-sidebar u-ff-sans-serif u-header ">
-        <!-- Mobile nav bar -->
-        <div id="nav-bar2">
-          <ul id="nav-items2">
-            <li>
-              <a
-                class="c-top-nav__links c-top-nav__list__items--hover"
-                href="about-me.html"
-                >About me</a
-              >
-            </li>
-            <li>
-              <a class="c-top-nav__links c-top-nav__list__items--hover" href=""
-                >Demo Site</a
-              >
-            </li>
-          </ul>
-        </div>
-
+      <aside id="aside-items" class="c-sidebar u-ff-sans-serif u-header">
         <li class="c-sidebar__list__items">Branding</li>
         <ol>
           <li>
@@ -91,12 +46,16 @@
         <li class="c-sidebar__list__items">Utilities</li>
         <ol>
           <li>
-            <a class="c-sidebar__link c-sidebar__list-items--hover" href="spacing.html"
+            <a
+              class="c-sidebar__link c-sidebar__list-items--hover"
+              href="spacing.html"
               >04 Spacing</a
             >
           </li>
           <li>
-            <a class="c-sidebar__link c-sidebar__list-items--hover" href="container.html"
+            <a
+              class="c-sidebar__link c-sidebar__list-items--hover"
+              href="container.html"
               >05 Containers</a
             >
           </li>
@@ -120,7 +79,7 @@
         <li class="c-sidebar__list__items">Navigation</li>
         <ol>
           <li>
-            <a class="c-sidebar__link c-sidebar__list-items--hover" href="nav-bar.html"
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
               >09 Navbars</a
             >
           </li>
@@ -163,7 +122,9 @@
         <li class="c-sidebar__list__items">Components</li>
         <ol>
           <li>
-            <a class="c-sidebar__link c-sidebar__list-items--hover" href="cards.html"
+            <a
+              class="c-sidebar__link c-sidebar__list-items--hover"
+              href="cards.html"
               >16 Cards</a
             >
           </li>
@@ -185,11 +146,32 @@
         </ol>
       </aside>
 
-
-
-
-
-
+      <div class="l-flex l-flex-column u-ff-sans-serif">
+        <nav id="nav-bar">
+          <ul id="nav-items" class="l-ml-2 l-mt-3">
+            <li class="l-pr-1-5 u-header"><a href="">Item 1</a></li>
+            <li class="l-pr-1-5 u-header"><a href="">Item 2</a></li>
+            <li class="l-pr-1-5 u-header"><a href="">Item 3</a></li>
+            <li class="l-pr-1-5 u-header"><a href="">Item 4</a></li>
+            <li class="u-header"><a href="">Item 5</a></li>
+          </ul>
+        </nav>
+        <div class="u-ff-sans-serif u-body l-mt-3 l-ml-2">
+          <p>
+            nav {
+                list-style-type: none;
+                display: none; /* Hide navigation by default(mobile)*/
+              }
+              <br>
+              <br>
+              #nav-items {
+                list-style-type: none;
+                display: flex;
+              }
+              
+          </p>
+        </div>
+      </div>
     </div>
     <script src="main.js"></script>
   </body>
