@@ -1,3 +1,5 @@
+// Nav bar
+
 function showNav() {
   var element = document.getElementById("nav-items");
   element.classList.toggle("show-items");
@@ -10,6 +12,8 @@ function showNav() {
 }
 
 
+
+// According 
 
   function changeImage(imageId) {
     // Hide all images
@@ -56,6 +60,50 @@ function showNav() {
     document.getElementById('button-view-less').style.display = 'none'; // Hide "View Less" button
     document.getElementById('button-view-more').style.display = 'block'; // Show "View More" button
   });
+
+
+
+  
+ // IMAGE SLIDER-carousel
+
+const slides = document.querySelectorAll(".c-carousel-container img");
+let slideIndex = 0;
+let intervalId = null;
+
+document.addEventListener("DOMContentLoaded", initializeSlider);
+
+function initializeSlider(){
+    if(slides.length > 0){
+        slides[slideIndex].classList.add("displaySlide");
+        intervalId = setInterval(nextSlide, 5000);
+    }
+}
+
+function showSlide(index){
+    if(index >= slides.length){
+        slideIndex = 0;
+    }
+    else if(index < 0){
+        slideIndex = slides.length - 1;
+    }
+
+    slides.forEach(slide => {
+        slide.classList.remove("displaySlide");
+    });
+    slides[slideIndex].classList.add("displaySlide");
+}
+
+function prevSlide(){
+    clearInterval(intervalId);
+    slideIndex--;
+    showSlide(slideIndex);
+}
+
+function nextSlide(){
+    slideIndex++;
+    showSlide(slideIndex);
+}
+
   
   
   

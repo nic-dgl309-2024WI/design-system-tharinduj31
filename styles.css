@@ -857,6 +857,57 @@ a {
   display: none;
 }
 
+/* Service section-carousel..............................*/
+.wrapper-service{
+  display: flex;
+  align-items: center;
+
+}
+
+.c-carousel{
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  display: none; /* hide carousel on mobile view*/
+}
+
+.c-carousel__img{
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  display: none;
+}
+
+img.displaySlide{
+  display: block;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.c-carousel__button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  padding: 10px 15px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.c-carousel__button--prev{
+  left: 0;
+}
+.c-carousel__button--next{
+  right: 0;
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
 
 /* small devices (mobile devices, upto 800px).......................................*/
 @media (max-width: 800px) {
@@ -883,6 +934,7 @@ a {
   .l-main-wrapper--hide{
     display: none;
   }
+  
 
 
 }
@@ -975,6 +1027,11 @@ a {
 
   #button-view-less{
     display: none;
+  }
+
+  .c-carousel{
+    display: flex;         
+    /* show carousel on desktop view*/
   }
 
 
