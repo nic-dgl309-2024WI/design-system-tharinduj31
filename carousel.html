@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="design-system.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="l-max-width-section">
+    <header class="c-top-nav__list__items u-ff-sans-serif l-mb-1 u-header ">
+      <div id="logo">
+        <a
+          class="c-top-nav__links c-top-nav__list__items--hover"
+          href="design-system.html"
+          >Design System</a
+        >
+      </div>
+      <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+      <!-- Desktop nav bar -->
+      <nav id="nav-bar">
+        <ul id="nav-items">
+          <li>
+            <a
+              class="c-top-nav__links c-top-nav__list__items--hover"
+              href="about-me.html"
+              >About me</a
+            >
+          </li>
+          <li>
+            <a class="c-top-nav__links c-top-nav__list__items--hover" href="index.html"
+              >Demo Site</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="l-container-flex">
+      <aside id="aside-items" class="c-sidebar u-ff-sans-serif u-header ">
+        <!-- Mobile nav bar -->
+        <div id="nav-bar2">
+          <ul id="nav-items2">
+            <li>
+              <a
+                class="c-top-nav__links c-top-nav__list__items--hover"
+                href="about-me.html"
+                >About me</a
+              >
+            </li>
+            <li>
+              <a class="c-top-nav__links c-top-nav__list__items--hover" href="index.html"
+                >Demo Site</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <li class="c-sidebar__list__items">Branding</li>
+        <ol>
+          <li>
+            <a
+              class="c-sidebar__link c-sidebar__list-items--hover"
+              href="color.html"
+              >01 Colours</a
+            >
+          </li>
+          <li>
+            <a
+              class="c-sidebar__link c-sidebar__list-items--hover"
+              href="typography.html"
+              >02 Typography</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >03 Logo</a
+            >
+          </li>
+        </ol>
+
+        <li class="c-sidebar__list__items">Utilities</li>
+        <ol>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href="spacing.html"
+              >04 Spacing</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href="container.html"
+              >05 Containers</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >06 Images</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >07 Interactive</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >08 Feedback</a
+            >
+          </li>
+        </ol>
+
+        <li class="c-sidebar__list__items">Navigation</li>
+        <ol>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href="nav-bar.html"
+              >09 Navbars</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >10 Breadcrumbs</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >11 Pagination</a
+            >
+          </li>
+        </ol>
+
+        <li class="c-sidebar__list__items">Blocks</li>
+        <ol>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href="hero.html"
+              >12 Hero</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >13 Carousel</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >14 Slats</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >15 Footer</a
+            >
+          </li>
+        </ol>
+
+        <li class="c-sidebar__list__items">Components</li>
+        <ol>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href="cards.html"
+              >16 Cards</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >17 Forms</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >18 Accordion</a
+            >
+          </li>
+          <li>
+            <a class="c-sidebar__link c-sidebar__list-items--hover" href=""
+              >19 Lists</a
+            >
+          </li>
+        </ol>
+      </aside>
+
+
+      <section class="wrapper l-px-2">
+        <div class="l-max-width-section">
+            <h2 class="u-h2 l-mb-2">Carousel</h2>
+            <h4 class="u-h4 l-mb-1">Html code</h4>
+   
+      <p style="white-space: pre-line;">
+        <code style="font-family: monospace;">
+          &lt;div class="c-carousel"&gt;
+            &lt;div class="c-carousel-container"&gt;
+              &lt;img class="c-carousel__img" src="images/Services/Service1.jpg" alt="Image #1"&gt;
+              &lt;img class="c-carousel__img" src="images/Services/Service2.jpg" alt="Image #2"&gt;
+              &lt;img class="c-carousel__img" src="images/Services/Service3.jpg" alt="Image #3"&gt;
+              &lt;img class="c-carousel__img" src="images/Services/Service4.jpg" alt="Image #4"&gt;
+            &lt;/div&gt;
+            &lt;button class="c-carousel__button c-carousel__button--prev" onclick="prevSlide()"&gt;&amp;#10094;&lt;/button&gt;
+            &lt;button class="c-carousel__button c-carousel__button--next" onclick="nextSlide()"&gt;&amp;#10095;&lt;/button&gt;
+          &lt;/div&gt;
+        </code>
+      </p>
+    </div>
+    </section>
+      
+      
+
+
+
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
