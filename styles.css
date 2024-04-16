@@ -800,8 +800,8 @@ a {
 
 .wrapper-Annettes-favourites {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  /* justify-content: space-between;
+  align-items: flex-start; */
 }
 
 .wrapper-Annettes-favourites li {
@@ -819,6 +819,7 @@ a {
   object-fit: cover;
   display: none;
 }
+
 
 .l-card-wrapper--desktop {
   display: none;
@@ -945,7 +946,14 @@ a {
     flex-wrap: wrap;
     /* margin-top: 20px; */
     margin: auto;
+ 
   }
+
+  .image-container-dummy-image img{
+    display: inline-block;
+    margin-right: 100px;
+  }
+  
 
   /* Resource section */
   .l-wrapper-resources-mobile {
