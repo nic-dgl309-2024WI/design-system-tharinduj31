@@ -746,6 +746,9 @@ a {
 
 .c-card__img {
   object-fit: cover;
+}
+
+.c-card__img--border-radius{
   border-radius: 1em;
 }
 
