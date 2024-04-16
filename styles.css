@@ -681,6 +681,8 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+ 
 }
 
 .l-section-text{
@@ -744,6 +746,7 @@ a {
 
 .c-card__img {
   object-fit: cover;
+  border-radius: 1em;
 }
 
 .c-card__text-CTA{
@@ -872,10 +875,7 @@ a {
  
   }
 
-  .l-hero-wrapper p{
-    margin-top: 12%;
-  }
-
+  
   .l-main-wrapper--hide{
     display: none;
   }
@@ -956,9 +956,7 @@ a {
     display: flex;
   }
 
-  /* .l-hero-wrapper p{
-    margin-top: 18%;
-  } */
+
 
   #button-view-more{
     display: none;
@@ -974,6 +972,4 @@ a {
 
 
 }
-
-
 
