@@ -550,6 +550,10 @@ ol {
 .l-flex {
   display: flex;
 }
+
+.l-display-none {
+  display: none;
+}
 .l-flex-row {
   flex-direction: row;
 }
@@ -769,12 +773,12 @@ a {
 
 /* Gift card  section */
 
-/* .wrapper-gift-card {
+/* .l-wrapper-card {
   display: flex;
   align-items: center;
 } */
 
-.wrapper-gift-card img {
+.l-wrapper-card img {
   display: none; /* Image hiddeden on mobile */
 }
 
@@ -857,7 +861,7 @@ a {
   overflow: hidden; */
 }
 
-.l-card-wrapper-facebook-mobile {
+.l-card-wrapper--facebook-mobile {
   display: none;
 }
 
@@ -984,17 +988,17 @@ img.displaySlide{
 
   /* Gift card  section */
 
-  .wrapper-gift-card {
+  .l-wrapper-card { 
     display: flex;
     align-items: center;
   }
 
-  .wrapper-gift-card img {
+  .l-wrapper-card img {
     display: flex; /* Image display-on desktop */
     width: 30%;
   }
 
-  .wrapper-gift-card p {
+  .l-wrapper-card p {
     width: 50%;
     margin: auto;
   }
@@ -1015,14 +1019,13 @@ img.displaySlide{
   
 
   /* Resource section */
-  .l-wrapper-resources-mobile {
+   .l-wrapper-mobile {
     display: none; /*hide mobile wrapper on desktop view*/
-  }
+  } 
 
-  .l-card-wrapper-facebook-mobile {
+  .l-card-wrapper--facebook-mobile {
     display: flex;
   }
-
 
 
   #button-view-more{
