@@ -125,7 +125,7 @@ th {
 
 
 /* Hero.index image change */
-.l-hero-background--hero{
+.l-section-background--hero{
     /* The image used */
     background-image: url("images/image_sample.png");
     /* height: 100vh;  */
