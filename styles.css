@@ -437,6 +437,10 @@ ol {
 }
 
 /* Padding Bottom */
+.l-pb-0-5 {
+  padding-bottom: .5rem;
+}
+
 .l-pb-1 {
   padding-bottom: 1rem;
 }
@@ -801,15 +805,15 @@ a {
   background-color: var(--clr-primary-font-color);
 }
 
-.wrapper-Annettes-favourites {
+/* .wrapper-Annettes-favourites {
   display: flex;
   /* justify-content: space-between;
-  align-items: flex-start; */
-}
+  align-items: flex-start; 
+} */
 
-.wrapper-Annettes-favourites li {
+/* .wrapper-Annettes-favourites li {
   padding-bottom: 8px;
-}
+} */
 
 .image-container {
   display: none;
@@ -920,10 +924,10 @@ img.displaySlide{
   }
   
 
-  .wrapper-Annettes-favourites ul {
+  /* .wrapper-Annettes-favourites ul {
     width: 80%;
     margin: auto;
-  }
+  } */
 
   h1 {
     -webkit-text-stroke: 2px rgb(248, 247, 247); /* For WebKit-based browsers */
