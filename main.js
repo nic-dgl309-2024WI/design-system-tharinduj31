@@ -1,7 +1,7 @@
 // Nav bar
 
 function showNav() {
-  var element = document.getElementById("nav-items");
+  var element = document.getElementById("c-nav-bar__items");
   element.classList.toggle("show-items");
   
   var ele = document.getElementById("aside-items");

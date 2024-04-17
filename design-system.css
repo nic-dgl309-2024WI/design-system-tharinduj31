@@ -154,7 +154,7 @@ th {
     display: none; /* hide hamburger menu */
   }
 
-  #nav-bar2 {
+  #c-nav-bar--mobile {
     display: none;
   }
 
@@ -162,7 +162,7 @@ th {
     display: flex;
   }
 
-  #nav-items {
+  #c-nav-bar__items {
     list-style-type: none;
     display: flex;
   }

@@ -703,7 +703,7 @@ nav {
   display: none; /* Hide navigation by default(mobile)*/
 }
 
-#nav-items2 {
+#c-nav-bar__items--mobile {
   list-style-type: none;
 }
 
@@ -951,7 +951,7 @@ img.displaySlide{
     display: flex;
   }
 
-  #nav-items {
+  #c-nav-bar__items {
     list-style-type: none;
     display: flex;
   }
