@@ -4,7 +4,7 @@ function showNav() {
   var element = document.getElementById("c-nav-bar__items");
   element.classList.toggle("show-items");
   
-  var ele = document.getElementById("aside-items");
+  var ele = document.getElementById("c-aside-items");
   ele.classList.toggle("show-items");
 
   var mainWrapper = document.querySelector('.l-main-wrapper');
