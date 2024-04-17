@@ -862,11 +862,11 @@ a {
 }
 
 /* Service section-carousel..............................*/
-.wrapper-service{
+/* .wrapper-service{
   display: flex;
   align-items: center;
 
-}
+} */
 
 .c-carousel{
   position: relative;
