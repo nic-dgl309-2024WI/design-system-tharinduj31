@@ -143,6 +143,8 @@ th {
     display: flex;
     justify-content: space-between;
   }
+
+  
 }
 
 /* Larger devices (from 800px).......................................*/
@@ -186,5 +188,11 @@ th {
     height: calc(100vh - var(--header-height)); 
   }
 
+/* Swatches table styles */
+.c-swatch__table--size {
+  width: 700px;
 
+
+
+}
 }
