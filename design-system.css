@@ -85,9 +85,11 @@ th {
 /* Side bar hover state changing styles */
 .c-sidebar__list-items--hover:hover {
   color: var(--clr-primary-accent-bgcolor);
+  text-decoration: underline;
 }
 .c-top-nav__list__items--hover:hover {
   color: var(--clr-primary-accent-bgcolor);
+  text-decoration: underline;
 }
 
 /* top nav bar list items Styles */
