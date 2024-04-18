@@ -934,9 +934,15 @@ img.displaySlide{
     margin: auto;
   } */
 
-  h1 {
-    -webkit-text-stroke: 2px rgb(248, 247, 247); /* For WebKit-based browsers */
+  /* h1 {
+    -webkit-text-stroke: 2px rgb(248, 247, 247); /* For WebKit-based browsers 
+    
  
+  } */
+
+  .l-section-mobile{
+    font-size: var(--fs-h3);
+   
   }
 
   
