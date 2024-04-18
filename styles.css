@@ -649,6 +649,10 @@ ol {
   max-width: 800px;
 }
 
+.l-logo-width{
+  width: 200px;
+}
+
 .l-height-view-height {
   height: calc(100vh - 90px);    /*reduce nav bar height 80px*/
 }
