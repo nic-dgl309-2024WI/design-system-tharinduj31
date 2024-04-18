@@ -807,6 +807,7 @@ a {
 
 .cta-button:hover {
   background-color: var(--clr-primary-font-color);
+  text-decoration: underline;
 }
 
 /* .wrapper-Annettes-favourites {
@@ -962,6 +963,11 @@ img.displaySlide{
   #c-nav-bar__items {
     list-style-type: none;
     display: flex;
+  }
+
+  .c-nav-bar__items--hover:hover {
+    color: var(--clr-primary-accent-bgcolor);
+    text-decoration: underline;
   }
 
   .l-main-wrapper {
